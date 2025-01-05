@@ -5,10 +5,13 @@ server:
     max-swallow-size: -1
 
 spring:
+  application:
+    name: user-service
   profiles:
     active: dev
   banner:
     location: classpath:banner/banner.txt
+
 #    image:
 #      location: banner/cat.png
 
